@@ -3,8 +3,8 @@
     box-sizing: border-box;
 }
 body {
-    background-color: steelblue;
-    color: #fff;
+    background-color: white;
+    color: black;
     font-family: 'Muli', sans-serif;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,8 @@ body {
     cursor: pointer;
     display: inline-block;
     width: 100%;
-    background: lightblue;
+    background: black;
+    color:white;
     padding: 15px;
     font-family: inherit;
     font-size: 16px;
@@ -53,6 +54,7 @@ body {
 
 .text {
     margin-top: 30px;
+    color:white;
 }
 
 .form-control {
@@ -75,7 +77,7 @@ body {
 .form-control input:focus,
 .form-control input:valid {
     outline: 0;
-    border-bottom-color: lightblue;
+    border-bottom-color: white;
 }
 
 .form-control label {
@@ -100,6 +102,7 @@ form p {
 
 .form-control input:focus + label span,
 .form-control input:valid + label span {
-    color: lightblue;
-    transform: translateY(-30px);
+    color: lightseagreen;
+    /* transform: translateY(-30px); */
+    translate: -30px;
 }
